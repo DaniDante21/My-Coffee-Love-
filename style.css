@@ -1,0 +1,167 @@
+  .text-brown2 {
+    color: #ff6a00;
+  }
+
+  .text.white {
+    color: white;
+  }
+
+  img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+  }
+
+  #center1 {
+    color: white;
+    text-align: center;
+  }
+
+  .center1 {
+    color: white;
+    text-align: center;
+  }
+
+  .text-outline-white{
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+
+
+    .wrapper {
+      position: relative;
+      height: 100vh;
+    }
+
+    .background1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to top, #000, #444);
+      z-index: 1;
+    }
+
+    .background2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.5), transparent);
+      z-index: 2;
+    }
+
+@font-face {
+  font-family: 'Merriwheather';
+  src: url('/font/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'Quintessential', cursive;
+}
+
+/* UNTUK TAGLINE */
+
+.tagline-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  padding: 20px 10px 0 10px;
+  max-width: 50%;
+  background: linear-gradient(to right, black, rgba(90, 40, 23, 0));
+}
+
+.tagline-title {
+  font-family: 'Merriwheather';
+  src: url('/font/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf');
+  font-weight: bold;
+  text-shadow: 5px 5px 0px #000;
+  font-size: 2.5rem; /* default untuk layar sedang */
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.tagline-subtitle {
+  font-family: 'Merriwheather';
+  src: url('/font/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf');
+  font-weight: normal;
+  text-shadow: 3px 3px 0px #000;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.tagline-title-2 {
+  font-family: 'Playfair_Display';
+  src: url('font/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 5px 5px 0px #000;
+  font-size: 2.9rem;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.tagline-title-3 {
+  padding-top: 10px;
+  font-family: 'Lora';
+  src: url('/font/Lora/Lora-Italic-VariableFont_wght.ttf');
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 3px 3px 0px #000;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.tagline-subtitle-3 {
+  padding-top: 0px;
+  font-family: 'Lora';
+  src: url('/font/Lora/Lora-Italic-VariableFont_wght.ttf');
+  font-weight: normal;
+  text-shadow: 3px 3px 0px #000;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+/* Responsif untuk HP */
+@media (max-width: 768px) {
+  .tagline-title {
+    font-size: 1.5rem;
+  }
+
+  .tagline-subtitle {
+    font-size: 1rem;
+  }
+
+  .tagline-container {
+    max-width: 100%;
+    padding-right: 10px;
+  }
+}
+
+/* KHUSUS FONT */
+
+.baru {
+  font-family: 'Merriwheather';
+  src: url('/font/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf');
+  font-weight: bold;
+  text-shadow: 3px 3px 0px #000;
+  font-size: 2.5rem; /* default untuk layar sedang */
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
